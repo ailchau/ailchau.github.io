@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 layout: single
-title: "About"
+title: "About Me"
 tags: [about]
 comments: false
 ---
