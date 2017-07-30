@@ -1,10 +1,14 @@
 ---
 title: "Project 1 - MTA Subway Data"
+tags:
+- mta turnstile data
+- metis
+- projects
 ---
 
 This week I finished my first project at Metis!
 
-#### The Project
+## The Project
 
 Our goal for the project was to help WomenTechWomenYes (WTWY), a fictitious organization, devise a strategy to build public awareness about their organization and mission. In less than a week, my partner and I explored the New York MTA subway data to make our recommendations of locations to place street teams at entrances to subway stations.
 
@@ -24,7 +28,7 @@ As we expected, stations are the busiest during the week compared to the weekend
 
 ![center]({{ site.baseurl }}/images/weekday_stations.png)
 
-#### Reflections
+## Reflections
 
 This project was a great exercise to practice using numpy and pandas to manipulate and explore the data. Although the MTA subway data was publicly available online, there were many inconsistencies in how the data was collected and recorded. I was able to appreciate how data scientists spend a lot of their time cleaning and organizing data. Best of all, I learned to pickle objects using the pickle module to save my clean data frame for future use. This little gem saved me some time when restarting my jupyter notebook.
 
