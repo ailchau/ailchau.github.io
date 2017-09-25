@@ -6,6 +6,8 @@ tags:
 - projects
 ---
 
+![center]({{ site.baseurl }}/images/MTA_7-train.png)
+
 This week I finished my first project at Metis!
 
 ## The Project
