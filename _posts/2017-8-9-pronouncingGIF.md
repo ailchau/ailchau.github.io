@@ -1,8 +1,6 @@
 ---
+layout: single
 title: 'How Do You Pronounce "GIF"?'
-tags:
-- metis
-- projects
 ---
 
 ## The Project
@@ -10,7 +8,7 @@ For my third project at Metis, my goal was to build a model to predict how peopl
 
 The majority of the respondents pronounced GIF with a hard "g".
 
-![center]({{ site.baseurl }}/images/gif_count.png)
+![center]({{ site.baseurl }}/images/pronouncingGIF/gif_count.png)
 
 ## Feature Engineering
 Almost all of the survey questions had multiple choice responses, resulting in categorical features. In order to fit different types of classification models using scikit-learn, at a minimum all the responses need to be converted into dummy variables. As a first pass, I did just this: I converted all features into dummy variables and ran a random forest model. However, the model's f1 score was lower than the base model (i.e., predicting that everyone pronounced GIF with a hard "g" since it is the largest class), indicating poor performance.
@@ -34,11 +32,11 @@ I was also interested to see if various features were associated with the pronun
 
 Non-native English speakers were more likely to pronounce GIF as some other way than native English speakers. They were also less likely to pronounce GIF with a hard "g".
 
-![center]({{ site.baseurl }}/images/native_english_screenshot.png)
+![center]({{ site.baseurl }}/images/pronouncingGIF/native_english_screenshot.png)
 
 People who pronounce GIF with a hard "g" tended to have more programming experience than the other classes, while those who use some other pronunciation tended to have less programming experience.
 
-![center]({{ site.baseurl }}/images/programming_experience_screenshot.png)
+![center]({{ site.baseurl }}/images/pronouncingGIF/programming_experience_screenshot.png)
 
 ## Reflections
 Although there are some features that were associated with how people pronounce GIF, it is difficult to build a good prediction model using data from the 2017 StackOverflow Developer Survey. The data used in this project probably doesn't capture information that is necessary for predicting how people pronounce GIF, highlighting the importance of data when building predictive models.

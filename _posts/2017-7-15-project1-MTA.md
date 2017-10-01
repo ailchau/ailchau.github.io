@@ -1,12 +1,10 @@
 ---
+layout: single
 title: "Project 1 - MTA Subway Data"
-tags:
-- mta turnstile data
-- metis
-- projects
 ---
 
-![center]({{ site.baseurl }}/images/MTA_7-train.png)
+![center]({{ site.baseurl }}/images/project1-MTA/MTA-7-train.png)  
+<sup>Photo via Flickr Creative Commons/Bryan Pocius</sup>
 
 This week I finished my first project at Metis!
 
@@ -20,15 +18,15 @@ Here are a few fun things we found while exploring the data:
 
 Between 8 am to 10 pm, the Grand Central - 42nd St Station was by far the busiest subway station.
 
-![center]({{ site.baseurl }}/images/top15_busiest.png)
+![center]({{ site.baseurl }}/images/project1-MTA/top15_busiest.png)
 
 Half of all the subway stations have over 500 people entering the station per hour. The black line indicates the median.
 
-![center]({{ site.baseurl }}/images/all_stations_histogram.png)
+![center]({{ site.baseurl }}/images/project1-MTA/all_stations_histogram.png)
 
 As we expected, stations are the busiest during the week compared to the weekend.
 
-![center]({{ site.baseurl }}/images/weekday_stations.png)
+![center]({{ site.baseurl }}/images/project1-MTA/weekday_stations.png)
 
 ## Reflections
 

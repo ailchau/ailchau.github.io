@@ -1,9 +1,6 @@
 ---
+layout: single
 title: Predicting Book Ratings vs. Reviews
-tags:
-- metis
-- projects
-- Goodreads
 ---
 
 The goal of my second project at Metis was to predict the ratio between the number of book ratings and the number of book reviews on Goodreads using information about the book, such as average book rating, years since publication, genre, number of pages, and awards won. High ratios would indicate that there were a higher number of ratings compared to reviews, whereas low ratios would indicate that there were similar number of ratings and reviews. In the data set, the smallest ratio was 1. For every review, there was at least 1 or more ratings. This makes sense, because when people submit book reviews, they are likely to also give the book a rating. However, the reverse isn't necessarily true. Rating a book out of five takes relatively little time compared to writing a book review.  I've noticed that this isn't true of just books on Goodreads, but also other sites that have customer ratings, like Amazon or Yelp.
@@ -21,4 +18,4 @@ In order to avoid overfitting and evaluate model performance accurately, I divid
 Here is final equation of the model:
 -1.22(Intercept) + 0.46*(Average Rating) + 0.44*(Years Since Publication) + 0.28*(Fantasy) + 0.10*(Number of Pages) + 0.06*(Voter Score) - 0.06*(Awards Won) - 0.30*(Classics) - 0.31*(Historical Fiction)
 
-![center]({{ site.baseurl }}/images/goodreads_coefficients.png)
+![center]({{ site.baseurl }}/images/predicting-ratings-reviews/goodreads_coefficients.png)
