@@ -81,7 +81,7 @@ author:
   avatar           : https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAwnAAAAJGNlYjc1OWQxLTM2YWUtNDg4ZS1iOWI4LTkwZDRiMGI5NTgxZA.jpg
   bio              : "Data Scientist"
   location         : "Chicago"
-  email            :
+  email            : aileen.chau@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -241,7 +241,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: # true
       comments: # true
       share: true
       related: true
