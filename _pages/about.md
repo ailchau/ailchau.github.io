@@ -5,6 +5,8 @@ title: "About Me"
 comments: false
 ---
 
-As a former cognitive neuroscience researcher, I have over 7 years of experience in experimental design, hypothesis testing, data preparation, and data analysis. I enjoy thinking creatively about how to solve problems and extract meaning from data.
+I am drawn to problems that involve creative and analytical thinking. Particularly, I am interested in using data to extract insights and tell stories. My background is in cognitive neuroscience and psychology. I have over 7 years of experience in experimental design, hypothesis testing, data munging, and data analysis to derive insights about human thought and behavior. I am also experienced at communicating complex analyses and findings through storytelling and visualizations.
 
-I have recently completed the Metis data science bootcamp and I am excited to leverage my past experiences and skills in this new field. The purpose of this blog is to highlight my data science projects, and some of the interesting things I have learned while exploring the field of machine learning and data science.
+I recently finished the Metis data science bootcamp and my data science practice is growing. I will be posting my data science projects and highlighting interesting things I learn along the way.
+
+During my free time, you can find me exploring art exhibitions, trying out teas, and experimenting with recipes. I am a fan of long-form journalism and my adopted city of Chicago.
